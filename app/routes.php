@@ -11,7 +11,14 @@
 |
 */
 
+//Global Patterns
+Route::pattern('id', '[0-9]+');
+
+
+//Routes
 Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', 'UserController@getIndex');
