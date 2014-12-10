@@ -18,7 +18,7 @@ Route::pattern('id', '[0-9]+');
 //Routes
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('front');
 });
 
 Route::get('users', 'UserController@getIndex');

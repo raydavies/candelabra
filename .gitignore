@@ -1,7 +1,5 @@
 /bootstrap/compiled.php
-/vendor
-/public/css/bootstrap
-/public/js/lib
+**vendor
 /public/img
 /public/font
 composer.phar
@@ -14,4 +12,3 @@ Thumbs.db
 *.swp
 error_log
 .htaccess
-/app/config/local

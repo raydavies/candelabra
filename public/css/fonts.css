@@ -1,10 +1,10 @@
 @font-face {
     font-family: "FFFTusjBold";
-    src: url('../fonts/tusj/FFF_Tusj-webfont.eot');
-    src: url('../fonts/tusj/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/tusj/FFF_Tusj-webfont.woff') format('woff'),
-         url('../fonts/tusj/FFF_Tusj-webfont.ttf') format('truetype'),
-         url('../fonts/tusj/FFF_Tusj-webfont.svg#FFFTusjBold') format('svg');
+    src: url('../font/tusj/FFF_Tusj-webfont.eot');
+    src: url('../font/tusj/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/tusj/FFF_Tusj-webfont.woff') format('woff'),
+         url('../font/tusj/FFF_Tusj-webfont.ttf') format('truetype'),
+         url('../font/tusj/FFF_Tusj-webfont.svg#FFFTusjBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -12,11 +12,11 @@
 
 @font-face {
     font-family: 'HenryMorganHand';
-    src: url('../fonts/hmhand/HenryMorganHand-webfont.eot');
-    src: url('../fonts/hmhand/HenryMorganHand-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hmhand/HenryMorganHand-webfont.woff') format('woff'),
-         url('../fonts/hmhand/HenryMorganHand-webfont.ttf') format('truetype'),
-         url('../fonts/hmhand/HenryMorganHand-webfont.svg#HenryMorganHandRegular') format('svg');
+    src: url('../font/hmhand/HenryMorganHand-webfont.eot');
+    src: url('../font/hmhand/HenryMorganHand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hmhand/HenryMorganHand-webfont.woff') format('woff'),
+         url('../font/hmhand/HenryMorganHand-webfont.ttf') format('truetype'),
+         url('../font/hmhand/HenryMorganHand-webfont.svg#HenryMorganHandRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'HominisNormal';
-    src: url('../fonts/hominis/HOMINIS-webfont.eot');
-    src: url('../fonts/hominis/HOMINIS-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hominis/HOMINIS-webfont.woff') format('woff'),
-         url('../fonts/hominis/HOMINIS-webfont.ttf') format('truetype'),
-         url('../fonts/hominis/HOMINIS-webfont.svg#HominisNormal') format('svg');
+    src: url('../font/hominis/HOMINIS-webfont.eot');
+    src: url('../font/hominis/HOMINIS-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hominis/HOMINIS-webfont.woff') format('woff'),
+         url('../font/hominis/HOMINIS-webfont.ttf') format('truetype'),
+         url('../font/hominis/HOMINIS-webfont.svg#HominisNormal') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -36,11 +36,11 @@
 
 @font-face {
     font-family: 'BebasRegular';
-    src: url('../fonts/bebas/BEBAS___-webfont.eot');
-    src: url('../fonts/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebas/BEBAS___-webfont.woff') format('woff'),
-         url('../fonts/bebas/BEBAS___-webfont.ttf') format('truetype'),
-         url('../fonts/bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    src: url('../font/bebas/BEBAS___-webfont.eot');
+    src: url('../font/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../font/bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../font/bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: 'Nevis';
-    src: url('../fonts/nevis.ttf') format('truetype');
+    src: url('../font/nevis.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -56,11 +56,11 @@
 
 @font-face {
     font-family: 'AmaticSCRegular';
-    src: url('../fonts/amatic/AmaticSC-Regular-webfont.eot');
-    src: url('../fonts/amatic/AmaticSC-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/amatic/AmaticSC-Regular-webfont.woff') format('woff'),
-         url('../fonts/amatic/AmaticSC-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/amatic/AmaticSC-Regular-webfont.svg#AmaticSCRegular') format('svg');
+    src: url('../font/amatic/AmaticSC-Regular-webfont.eot');
+    src: url('../font/amatic/AmaticSC-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/amatic/AmaticSC-Regular-webfont.woff') format('woff'),
+         url('../font/amatic/AmaticSC-Regular-webfont.ttf') format('truetype'),
+         url('../font/amatic/AmaticSC-Regular-webfont.svg#AmaticSCRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -68,11 +68,11 @@
 
 @font-face {
     font-family: 'AmaticBold';
-    src: url('../fonts/amatic/Amatic-Bold-webfont.eot');
-    src: url('../fonts/amatic/Amatic-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/amatic/Amatic-Bold-webfont.woff') format('woff'),
-         url('../fonts/amatic/Amatic-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/amatic/Amatic-Bold-webfont.svg#AmaticBold') format('svg');
+    src: url('../font/amatic/Amatic-Bold-webfont.eot');
+    src: url('../font/amatic/Amatic-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/amatic/Amatic-Bold-webfont.woff') format('woff'),
+         url('../font/amatic/Amatic-Bold-webfont.ttf') format('truetype'),
+         url('../font/amatic/Amatic-Bold-webfont.svg#AmaticBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -80,11 +80,11 @@
 
 @font-face {
     font-family: 'HVDBodedoMedium';
-    src: url('../fonts/hvd/HVD_Bodedo-webfont.eot');
-    src: url('../fonts/hvd/HVD_Bodedo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hvd/HVD_Bodedo-webfont.woff') format('woff'),
-         url('../fonts/hvd/HVD_Bodedo-webfont.ttf') format('truetype'),
-         url('../fonts/hvd/HVD_Bodedo-webfont.svg#HVDBodedoMedium') format('svg');
+    src: url('../font/hvd/HVD_Bodedo-webfont.eot');
+    src: url('../font/hvd/HVD_Bodedo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hvd/HVD_Bodedo-webfont.woff') format('woff'),
+         url('../font/hvd/HVD_Bodedo-webfont.ttf') format('truetype'),
+         url('../font/hvd/HVD_Bodedo-webfont.svg#HVDBodedoMedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -92,11 +92,11 @@
 
 @font-face {
     font-family: 'FontleroyBrownRegular';
-    src: url('../fonts/fontleroy/FontleroyBrown-webfont.eot');
-    src: url('../fonts/fontleroy/FontleroyBrown-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/fontleroy/FontleroyBrown-webfont.woff') format('woff'),
-         url('../fonts/fontleroy/FontleroyBrown-webfont.ttf') format('truetype'),
-         url('../fonts/fontleroy/FontleroyBrown-webfont.svg#FontleroyBrownRegular') format('svg');
+    src: url('../font/fontleroy/FontleroyBrown-webfont.eot');
+    src: url('../font/fontleroy/FontleroyBrown-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fontleroy/FontleroyBrown-webfont.woff') format('woff'),
+         url('../font/fontleroy/FontleroyBrown-webfont.ttf') format('truetype'),
+         url('../font/fontleroy/FontleroyBrown-webfont.svg#FontleroyBrownRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -105,11 +105,11 @@
 
 @font-face {
     font-family: '1942report';
-    src: url('../fonts/1942/1942-webfont.eot');
-    src: url('../fonts/1942/1942-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/1942/1942-webfont.woff') format('woff'),
-         url('../fonts/1942/1942-webfont.ttf') format('truetype'),
-         url('../fonts/1942/1942-webfont.svg#1942report1942report') format('svg');
+    src: url('../font/1942/1942-webfont.eot');
+    src: url('../font/1942/1942-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/1942/1942-webfont.woff') format('woff'),
+         url('../font/1942/1942-webfont.ttf') format('truetype'),
+         url('../font/1942/1942-webfont.svg#1942report1942report') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -117,11 +117,11 @@
 
 @font-face {
     font-family: 'CACChampagneRegular';
-    src: url('../fonts/champagne/cac_champagne-webfont.eot');
-    src: url('../fonts/champagne/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/champagne/cac_champagne-webfont.woff') format('woff'),
-         url('../fonts/champagne/cac_champagne-webfont.ttf') format('truetype'),
-         url('../fonts/champagne/cac_champagne-webfont.svg#CACChampagneRegular') format('svg');
+    src: url('../font/champagne/cac_champagne-webfont.eot');
+    src: url('../font/champagne/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/champagne/cac_champagne-webfont.woff') format('woff'),
+         url('../font/champagne/cac_champagne-webfont.ttf') format('truetype'),
+         url('../font/champagne/cac_champagne-webfont.svg#CACChampagneRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -129,11 +129,11 @@
 
 @font-face {
     font-family: 'Aquiline';
-    src: url('../fonts/aquiline/Aquiline-webfont.eot');
-    src: url('../fonts/aquiline/Aquiline-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/aquiline/Aquiline-webfont.woff') format('woff'),
-         url('../fonts/aquiline/Aquiline-webfont.ttf') format('truetype'),
-         url('../fonts/aquiline/Aquiline-webfont.svg#AquilineRegular') format('svg');
+    src: url('../font/aquiline/Aquiline-webfont.eot');
+    src: url('../font/aquiline/Aquiline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/aquiline/Aquiline-webfont.woff') format('woff'),
+         url('../font/aquiline/Aquiline-webfont.ttf') format('truetype'),
+         url('../font/aquiline/Aquiline-webfont.svg#AquilineRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -141,11 +141,11 @@
 
 @font-face {
     font-family: 'AquilineTwo';
-    src: url('../fonts/aquiline/AquilineTwo-webfont.eot');
-    src: url('../fonts/aquiline/AquilineTwo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/aquiline/AquilineTwo-webfont.woff') format('woff'),
-         url('../fonts/aquiline/AquilineTwo-webfont.ttf') format('truetype'),
-         url('../fonts/aquiline/AquilineTwo-webfont.svg#AquilineTwoRegular') format('svg');
+    src: url('../font/aquiline/AquilineTwo-webfont.eot');
+    src: url('../font/aquiline/AquilineTwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/aquiline/AquilineTwo-webfont.woff') format('woff'),
+         url('../font/aquiline/AquilineTwo-webfont.ttf') format('truetype'),
+         url('../font/aquiline/AquilineTwo-webfont.svg#AquilineTwoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -153,11 +153,11 @@
 
 @font-face {
     font-family: 'LobsterTwo';
-    src: url('../fonts/lobster/LobsterTwo-Regular-webfont.eot');
-    src: url('../fonts/lobster/LobsterTwo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lobster/LobsterTwo-Regular-webfont.woff') format('woff'),
-         url('../fonts/lobster/LobsterTwo-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/lobster/LobsterTwo-Regular-webfont.svg#LobsterTwoRegular') format('svg');
+    src: url('../font/lobster/LobsterTwo-Regular-webfont.eot');
+    src: url('../font/lobster/LobsterTwo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lobster/LobsterTwo-Regular-webfont.woff') format('woff'),
+         url('../font/lobster/LobsterTwo-Regular-webfont.ttf') format('truetype'),
+         url('../font/lobster/LobsterTwo-Regular-webfont.svg#LobsterTwoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -165,11 +165,11 @@
 
 @font-face {
     font-family: 'LobsterTwoItalic';
-    src: url('../fonts/lobster/LobsterTwo-Italic-webfont.eot');
-    src: url('../fonts/lobster/LobsterTwo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lobster/LobsterTwo-Italic-webfont.woff') format('woff'),
-         url('../fonts/lobster/LobsterTwo-Italic-webfont.ttf') format('truetype'),
-         url('../fonts/lobster/LobsterTwo-Italic-webfont.svg#LobsterTwoItalic') format('svg');
+    src: url('../font/lobster/LobsterTwo-Italic-webfont.eot');
+    src: url('../font/lobster/LobsterTwo-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lobster/LobsterTwo-Italic-webfont.woff') format('woff'),
+         url('../font/lobster/LobsterTwo-Italic-webfont.ttf') format('truetype'),
+         url('../font/lobster/LobsterTwo-Italic-webfont.svg#LobsterTwoItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -177,11 +177,11 @@
 
 @font-face {
     font-family: 'LobsterTwoBold';
-    src: url('../fonts/lobster/LobsterTwo-Bold-webfont.eot');
-    src: url('../fonts/lobster/LobsterTwo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lobster/LobsterTwo-Bold-webfont.woff') format('woff'),
-         url('../fonts/lobster/LobsterTwo-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/lobster/LobsterTwo-Bold-webfont.svg#LobsterTwoBold') format('svg');
+    src: url('../font/lobster/LobsterTwo-Bold-webfont.eot');
+    src: url('../font/lobster/LobsterTwo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lobster/LobsterTwo-Bold-webfont.woff') format('woff'),
+         url('../font/lobster/LobsterTwo-Bold-webfont.ttf') format('truetype'),
+         url('../font/lobster/LobsterTwo-Bold-webfont.svg#LobsterTwoBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -189,11 +189,11 @@
 
 @font-face {
     font-family: 'LobsterTwoBoldItalic';
-    src: url('../fonts/lobster/LobsterTwo-BoldItalic-webfont.eot');
-    src: url('../fonts/lobster/LobsterTwo-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lobster/LobsterTwo-BoldItalic-webfont.woff') format('woff'),
-         url('../fonts/lobster/LobsterTwo-BoldItalic-webfont.ttf') format('truetype'),
-         url('../fonts/lobster/LobsterTwo-BoldItalic-webfont.svg#LobsterTwoBoldItalic') format('svg');
+    src: url('../font/lobster/LobsterTwo-BoldItalic-webfont.eot');
+    src: url('../font/lobster/LobsterTwo-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lobster/LobsterTwo-BoldItalic-webfont.woff') format('woff'),
+         url('../font/lobster/LobsterTwo-BoldItalic-webfont.ttf') format('truetype'),
+         url('../font/lobster/LobsterTwo-BoldItalic-webfont.svg#LobsterTwoBoldItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -201,11 +201,11 @@
 
 @font-face {
     font-family: 'LondrinaSolid';
-    src: url('../fonts/londrina/LondrinaSolid-Regular-webfont.eot');
-    src: url('../fonts/londrina/LondrinaSolid-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/londrina/LondrinaSolid-Regular-webfont.woff') format('woff'),
-         url('../fonts/londrina/LondrinaSolid-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/londrina/LondrinaSolid-Regular-webfont.svg#LondrinaSolidRegular') format('svg');
+    src: url('../font/londrina/LondrinaSolid-Regular-webfont.eot');
+    src: url('../font/londrina/LondrinaSolid-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/londrina/LondrinaSolid-Regular-webfont.woff') format('woff'),
+         url('../font/londrina/LondrinaSolid-Regular-webfont.ttf') format('truetype'),
+         url('../font/londrina/LondrinaSolid-Regular-webfont.svg#LondrinaSolidRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -213,11 +213,11 @@
 
 @font-face {
     font-family: 'LondrinaSketche';
-    src: url('../fonts/londrina/LondrinaSketche-Regular-webfont.eot');
-    src: url('../fonts/londrina/LondrinaSketche-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/londrina/LondrinaSketche-Regular-webfont.woff') format('woff'),
-         url('../fonts/londrina/LondrinaSketche-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/londrina/LondrinaSketche-Regular-webfont.svg#LondrinaSketcheRegular') format('svg');
+    src: url('../font/londrina/LondrinaSketche-Regular-webfont.eot');
+    src: url('../font/londrina/LondrinaSketche-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/londrina/LondrinaSketche-Regular-webfont.woff') format('woff'),
+         url('../font/londrina/LondrinaSketche-Regular-webfont.ttf') format('truetype'),
+         url('../font/londrina/LondrinaSketche-Regular-webfont.svg#LondrinaSketcheRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -225,11 +225,11 @@
 
 @font-face {
     font-family: 'LondrinaOutline';
-    src: url('../fonts/londrina/LondrinaOutline-Regular-webfont.eot');
-    src: url('../fonts/londrina/LondrinaOutline-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/londrina/LondrinaOutline-Regular-webfont.woff') format('woff'),
-         url('../fonts/londrina/LondrinaOutline-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/londrina/LondrinaOutline-Regular-webfont.svg#LondrinaOutlineRegular') format('svg');
+    src: url('../font/londrina/LondrinaOutline-Regular-webfont.eot');
+    src: url('../font/londrina/LondrinaOutline-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/londrina/LondrinaOutline-Regular-webfont.woff') format('woff'),
+         url('../font/londrina/LondrinaOutline-Regular-webfont.ttf') format('truetype'),
+         url('../font/londrina/LondrinaOutline-Regular-webfont.svg#LondrinaOutlineRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -237,11 +237,11 @@
 
 @font-face {
     font-family: 'LondrinaShadow';
-    src: url('../fonts/londrina/LondrinaShadow-Regular-webfont.eot');
-    src: url('../fonts/londrina/LondrinaShadow-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/londrina/LondrinaShadow-Regular-webfont.woff') format('woff'),
-         url('../fonts/londrina/LondrinaShadow-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/londrina/LondrinaShadow-Regular-webfont.svg#LondrinaShadowRegular') format('svg');
+    src: url('../font/londrina/LondrinaShadow-Regular-webfont.eot');
+    src: url('../font/londrina/LondrinaShadow-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/londrina/LondrinaShadow-Regular-webfont.woff') format('woff'),
+         url('../font/londrina/LondrinaShadow-Regular-webfont.ttf') format('truetype'),
+         url('../font/londrina/LondrinaShadow-Regular-webfont.svg#LondrinaShadowRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -249,11 +249,11 @@
 
 @font-face {
     font-family: 'EastMarket';
-    src: url('../fonts/market/EastMarket-webfont.eot');
-    src: url('../fonts/market/EastMarket-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/market/EastMarket-webfont.woff') format('woff'),
-         url('../fonts/market/EastMarket-webfont.ttf') format('truetype'),
-         url('../fonts/market/EastMarket-webfont.svg#EastMarketRegular') format('svg');
+    src: url('../font/market/EastMarket-webfont.eot');
+    src: url('../font/market/EastMarket-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/market/EastMarket-webfont.woff') format('woff'),
+         url('../font/market/EastMarket-webfont.ttf') format('truetype'),
+         url('../font/market/EastMarket-webfont.svg#EastMarketRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -261,11 +261,11 @@
 
 @font-face {
     font-family: 'Journal';
-    src: url('../fonts/journal/journal-webfont.eot');
-    src: url('../fonts/journal/journal-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/journal/journal-webfont.woff') format('woff'),
-         url('../fonts/journal/journal-webfont.ttf') format('truetype'),
-         url('../fonts/journal/journal-webfont.svg#JournalRegular') format('svg');
+    src: url('../font/journal/journal-webfont.eot');
+    src: url('../font/journal/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/journal/journal-webfont.woff') format('woff'),
+         url('../font/journal/journal-webfont.ttf') format('truetype'),
+         url('../font/journal/journal-webfont.svg#JournalRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
