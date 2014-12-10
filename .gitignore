@@ -14,3 +14,4 @@ Thumbs.db
 *.swp
 error_log
 .htaccess
+/app/config/local
