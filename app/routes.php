@@ -16,9 +16,6 @@ Route::pattern('id', '[0-9]+');
 
 
 //Routes
-Route::get('/', function()
-{
-	return View::make('front');
-});
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@showDashboard'));
 
-Route::get('users', 'UserController@getIndex');
+Route::get('/city/{id}', array('as' => 'city', 'uses' => 'CityController@showCity'));
