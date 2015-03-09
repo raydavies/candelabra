@@ -41,20 +41,22 @@
 
 	{{ $city->weather or null }}
 
-	@if (!isset($city->destinations))
+	@if (!isset($destinations))
 		<p class="city_disclaimer">Click <a href="">&gt;HERE&lt;</a> to start adding destinations to this page.</p>
 	@else
-		@foreach ($city->destinations as $name => $value)
-			<div class="destination" id="destination-{{ $value['id'] }}">
-				<h2 class="venue-name"><a href="">{{ $name }}</a></h2>
+		@foreach ($destinations as $name => $destination)
+			<div class="destination" id="destination-{{ $destination->destination_id }}">
+				<h2 class="venue-name"><a href="">{{ $destination->destination_name }}</a></h2>
 				<section class="venue">
-					<img src="{{ $value['image'] }}">
-					<h5>{{ $value['tags'] }}</h5>
-					<a href="" target="_blank">{{ $value['url'] }}</a>
+					<img src="{{ $destination->firstImage }}">
+					@foreach ($destination->tags as $tag)
+						<h5>{{ $tag->tag }}</h5>
+					@endforeach
+					<a href="" target="_blank">{{ $destination->url }}</a>
 				</section>
 
 				<section class="reviews">
-					@if (!empty($city->destinations[$name]['users']))
+					@if (!empty($destinations[$name]['users']))
 						$rand = rand(0, count($city->destinations[$name]['users']) - 1);
 						$user = $city->destinations[$name]['users'][$rand];
 						$uname = strtolower($user['username']);

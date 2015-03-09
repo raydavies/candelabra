@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class Trip extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class Trip extends Model
 {
 	protected $table = 'trips';
 
@@ -8,11 +11,11 @@ class Trip extends Eloquent
 
 	public function cities()
 	{
-		return $this->belongsToMany('City', 'trips_cities')->withPivot('sort')->orderBy('sort', 'ASC');
+		return $this->belongsToMany('App\Models\City', 'trips_cities')->withPivot('sort')->orderBy('sort', 'ASC');
 	}
 
 	public function flights()
 	{
-		return $this->belongsToMany('Flight', 'users_flights')->withPivot(array('user_id', 'seat'));
+		return $this->belongsToMany('App\Models\Flight', 'users_flights')->withPivot(array('user_id', 'seat'));
 	}
 }

@@ -1,19 +1,24 @@
 <?php
+namespace App\Http\Controllers;
 
-class CityController extends BaseController
+use App\Models\Trip;
+use App\Models\Destination;
+
+class CityController extends Controller
 {
-
 	public function showCity($city_id)
 	{
+		$city_id = (int) $city_id;
 		$trip = Trip::find(4);
 		$cities = $trip->cities;
-		$city = $cities->where('city_id', $city_id);
-		//$city = City::find($city_id);
+		$city = $cities->where('city_id', $city_id)->first();
 
-		return View::make('city')->with(array(
+		$destinations = Destination::where('city_id', '=', $city_id)->get();
+
+		return view('city')->with([
 			'trip' => $trip,
-			'city' => $city
-		));
+			'city' => $city,
+			'destinations' => $destinations
+		]);
 	}
-
 }

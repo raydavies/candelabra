@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class City extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class City extends Model
 {
 	protected $table = 'cities';
 
@@ -8,7 +11,7 @@ class City extends Eloquent
 
 	public function destinations()
 	{
-		return $this->hasManyThrough('Destination', 'Trip', 'city_id', 'trip_id');
+		return $this->belongsToMany('App\Models\Destination', 'destinations');
 	}
 
 	public function setStateAttribute($value)

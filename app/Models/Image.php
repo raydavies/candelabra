@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class Image extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class Image extends Model
 {
 	protected $table = 'images';
 

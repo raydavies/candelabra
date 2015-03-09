@@ -14,7 +14,7 @@
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-    ]);
+]);
 
 //Global Patterns
 Route::pattern('id', '[0-9]+');

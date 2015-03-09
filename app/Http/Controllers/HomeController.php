@@ -1,18 +1,10 @@
-<?php namespace App\Http\Controllers;
+<?php
+namespace App\Http\Controllers;
 
-class HomeController extends Controller {
+use App\Models\Trip;
 
-	/*
-	|--------------------------------------------------------------------------
-	| Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders your application's "dashboard" for users that
-	| are authenticated. Of course, you are free to change or remove the
-	| controller as you wish. It is just here to get your app started!
-	|
-	*/
-
+class HomeController extends Controller
+{
 	/**
 	 * Create a new controller instance.
 	 *
@@ -20,25 +12,15 @@ class HomeController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('auth');
+		//$this->middleware('auth');
 	}
-
-	/**
-	 * Show the application dashboard to the user.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-		return view('home');
-    }
 
     public function showDashboard($trip_id = null)
 	{
 		$trip_id = isset($trip_id) ? (int) $trip_id : 4;
 		$trip = Trip::find($trip_id);
 
-		return View::make('home')->with('trip', $trip);
+		return view('home')->with('trip', $trip);
 	}
 
 }

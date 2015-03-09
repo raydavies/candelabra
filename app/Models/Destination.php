@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class Destination extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class Destination extends Model
 {
 	protected $table = 'destinations';
 
@@ -13,11 +16,11 @@ class Destination extends Eloquent
 
 	public function images()
 	{
-		return $this->belongsToMany('Image', 'destinations_images')->withPivot('sort')->orderBy('sort', 'ASC');
+		return $this->belongsToMany('App\Models\Image', 'destinations_images')->withPivot('sort')->orderBy('sort', 'ASC');
 	}
 
 	public function tags()
 	{
-		return $this->belongsToMany('Tag', 'destinations_tags')->withPivot('sort')->orderBy('sort', 'ASC');
+		return $this->belongsToMany('App\Models\Tag', 'destinations_tags')->withPivot('sort')->orderBy('sort', 'ASC');
 	}
 }

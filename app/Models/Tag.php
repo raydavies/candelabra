@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class Tag extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class Tag extends Model
 {
 	protected $table = 'tags';
 

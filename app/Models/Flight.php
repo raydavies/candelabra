@@ -1,6 +1,9 @@
 <?php
+namespace App\Models;
 
-class Flight extends Eloquent
+use Illuminate\Database\Eloquent\Model;
+
+class Flight extends Model
 {
 	protected $table = 'flights';
 
