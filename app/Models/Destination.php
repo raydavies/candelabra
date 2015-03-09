@@ -9,9 +9,9 @@ class Destination extends Model
 
 	protected $primaryKey = 'destination_id';
 
-	public function mainImage()
+	public function address()
 	{
-		return $this->images()->first();
+		return $this->belongsTo('App\Models\Address');
 	}
 
 	public function images()
@@ -22,5 +22,13 @@ class Destination extends Model
 	public function tags()
 	{
 		return $this->belongsToMany('App\Models\Tag', 'destinations_tags')->withPivot('sort')->orderBy('sort', 'ASC');
+	}
+
+	public function getUrlAttribute($value)
+	{
+		if (!empty($value)) {
+			$value = 'http://' . $value;
+		}
+		return $value;
 	}
 }

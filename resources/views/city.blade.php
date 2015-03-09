@@ -46,13 +46,33 @@
 	@else
 		@foreach ($destinations as $name => $destination)
 			<div class="destination" id="destination-{{ $destination->destination_id }}">
-				<h2 class="venue-name"><a href="">{{ $destination->destination_name }}</a></h2>
 				<section class="venue">
-					<img src="{{ $destination->firstImage }}">
-					@foreach ($destination->tags as $tag)
-						<h5>{{ $tag->tag }}</h5>
-					@endforeach
-					<a href="" target="_blank">{{ $destination->url }}</a>
+					<header class="venue-name">{{ $destination->destination_name }}</header>
+					<div class="address">
+						@eval($address = $destination->address)
+						<span>{{ $address->address1 }}</span>
+						@if (!empty($address->address2))
+							<span>{{ $address->address2 }}</span>
+						@endif
+						<span>{{ $address->city }}, {{ $address->state_providence }} {{ $address->postalcode }}</span>
+					</div>
+					@eval($images = $destination->images)
+					@if (!empty($images))
+						<img src="{{ $images->first() }}">
+					@endif
+
+					@if (!empty($destination->url))
+						<a href="{{ $destination->url }}" target="_blank">Website</a>
+					@endif
+
+					@eval($tags = $destination->tags)
+					@if (!empty($tags))
+						<div class="tags">
+						@foreach ($tags as $tag)
+							<span class="tag" data-tag_id="{{ $tag->tag_id }}">{{ $tag->tag }}</span>
+						@endforeach
+						</div>
+					@endif
 				</section>
 
 				<section class="reviews">
