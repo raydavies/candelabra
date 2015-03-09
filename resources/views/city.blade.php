@@ -15,7 +15,7 @@
 
 @section('navigation')
 	<ul>
-		<li><a href="{{ route('home', array('id' => 3)) }}">Home</a></li>
+		<li><a href="{{ route('home') }}">Home</a></li>
 		@foreach ($trip->cities as $current)
 			@if ($current->city_id !== $city->city_id)
 				<li><a href="{{ route('city', array('id' => $current->city_id)) }}">{{ $current->city }}</a></li>

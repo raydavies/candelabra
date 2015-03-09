@@ -10,4 +10,9 @@ class Trip extends Eloquent
 	{
 		return $this->belongsToMany('City', 'trips_cities')->withPivot('sort')->orderBy('sort', 'ASC');
 	}
+
+	public function flights()
+	{
+		return $this->belongsToMany('Flight', 'users_flights')->withPivot(array('user_id', 'seat'));
+	}
 }

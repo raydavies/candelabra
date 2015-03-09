@@ -11,11 +11,16 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
-Route::get('home', 'HomeController@index');
-
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);
+    ]);
+
+//Global Patterns
+Route::pattern('id', '[0-9]+');
+
+//Routes
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@showDashboard'));
+
+Route::get('/city/{id}', array('as' => 'city', 'uses' => 'CityController@showCity'));
+
